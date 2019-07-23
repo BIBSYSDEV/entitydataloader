@@ -1,0 +1,8 @@
+Missing required options [--input=FILE, --url=URL, --api-key=KEY]
+Usage: App [-h] -i=FILE -k=KEY -s=SERIALIZATION -u=URL
+  -h, --help          Display help for command
+  -i, --input=FILE    Path to input file
+  -k, --api-key=KEY   API key
+  -s, --serialization=SERIALIZATION
+                      RDF serialization of input file
+  -u, --url=URL       API url

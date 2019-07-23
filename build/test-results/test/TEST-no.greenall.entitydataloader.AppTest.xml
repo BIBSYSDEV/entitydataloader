@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="no.greenall.entitydataloader.AppTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-07-11T22:23:15" hostname="rgs-MacBook-Pro.local" time="0.1">
+  <properties/>
+  <testcase name="testNoInputFile" classname="no.greenall.entitydataloader.AppTest" time="0.076"/>
+  <testcase name="testApp" classname="no.greenall.entitydataloader.AppTest" time="0.004"/>
+  <testcase name="testUnrecognizedSerialization" classname="no.greenall.entitydataloader.AppTest" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
