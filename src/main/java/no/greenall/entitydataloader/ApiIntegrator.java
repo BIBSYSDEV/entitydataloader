@@ -49,10 +49,7 @@ public class ApiIntegrator {
         EntityDto entityDto = new EntityDto();
         entityDto.setId(id);
         entityDto.setBody(entity);
-
         Response createResponse = invocationBuilder.post(Entity.entity(entityDto, MediaType.APPLICATION_JSON_TYPE));
-
-        // Will this work? It should!
         return createResponse.getHeaderString(LOCATION);
     }
 
