@@ -15,6 +15,8 @@ import org.apache.jena.riot.Lang;
 import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.vocabulary.RDF;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringWriter;
@@ -92,7 +94,7 @@ public class EntityDataManager {
     }
 
     private void loadData(String filepath, Lang lang) {
-        try (InputStream inputStream = this.getClass().getResourceAsStream(filepath)) {
+        try (InputStream inputStream = new FileInputStream(new File(filepath))) {
             RDFDataMgr.read(inputModel, inputStream, lang);
         } catch (IOException e) {
             throw new RuntimeException(String.format(FILE_NOT_FOUND_TEMPLATE, filepath));
@@ -128,7 +130,6 @@ public class EntityDataManager {
     public EntityDataManager(String filepath, Lang lang, String baseUrl, String apiKey) {
         this.apiKey = apiKey;
         this.inputModel = ModelFactory.createDefaultModel();
-
 
         try {
             this.baseUrl = new URL(baseUrl);
