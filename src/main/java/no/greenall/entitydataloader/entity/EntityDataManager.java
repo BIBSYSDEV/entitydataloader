@@ -30,6 +30,7 @@ import static java.util.Objects.isNull;
 
 public class EntityDataManager {
     private static final String UNIT_ONTOLOGY_IRI = "http://unit.no/entitydata#";
+    private static final String CONCEPT_IRI = UNIT_ONTOLOGY_IRI + "Concept";
     private static final String RESOURCE_NOT_PERSISTED_TETMPLATE = "The resource %s was not persisted to the database";
     private static final String FILE_NOT_FOUND_TEMPLATE = "The requested file %s was not found";
     private static final String MALFORMED_URL_TEMPLATE = "The URL %s is malformed";
@@ -58,9 +59,9 @@ public class EntityDataManager {
 
     private StmtIterator listConcepts() {
         SimpleSelector simpleSelector = new SimpleSelector(
-                ResourceFactory.createResource(),
+                null,
                 RDF.type,
-                ResourceFactory.createResource(UNIT_ONTOLOGY_IRI));
+                (RDFNode) ResourceFactory.createResource(CONCEPT_IRI));
 
         return inputModel.listStatements(simpleSelector);
     }
