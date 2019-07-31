@@ -1,0 +1,12 @@
+@prefix unit:  <http://unit.no/entitydata#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.ub.uio.no/humord/c27724-2>
+        a                     unit:Concept ;
+        # unit:broader          <http://data.ub.uio.no/humord/c10775> ;
+        unit:editorialNote    "Lukket bemerkning: ubo14"@nb ;
+        unit:inScheme         <https://unit.no/systems#humord> ;
+        unit:localIdentifier  "HUME27724" ;
+        unit:modified         "2014-12-30"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Savosavo sprak"@nb .
