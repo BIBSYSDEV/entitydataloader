@@ -120,7 +120,7 @@ public class EntityDataManager {
             Property property = statement.getPredicate();
             RDFNode object = statement.getObject();
 
-            if (object.isURIResource()) {
+            if (object.isURIResource() && !property.equals(RDF.type)) {
                 object = remapSingleIRI(statement.getObject().asResource(), replacementIRIs);
             }
             outputModel.add(outputModel.createStatement(subject, property, object));
@@ -145,7 +145,7 @@ public class EntityDataManager {
     }
 
     private void writeAllDataFromModel(Model model) {
-        ResIterator subjects = model.listSubjects();
+        ResIterator subjects = model.listSubjectsWithProperty(RDF.type, ResourceFactory.createResource("http://unit.no/entitydata#Concept"));
         int counter = 0;
 
         while (subjects.hasNext()) {
@@ -153,7 +153,7 @@ public class EntityDataManager {
             Resource subject = subjects.nextResource();
             Property property = ResourceFactory.createProperty(null);
             RDFNode object = ResourceFactory.createResource();
-            SimpleSelector subjectQuery = new SimpleSelector(subject, property, object);
+            SimpleSelector subjectQuery = new SimpleSelector(subject,  null, (RDFNode) null);
             Model singleDescription = model.query(subjectQuery);
             String id = subject.getURI().substring(subject.getURI().lastIndexOf(URL_PATH_SEPARATOR));
             String updatedUrl = updateEntity(id, singleDescription);

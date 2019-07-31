@@ -7,6 +7,10 @@ import javax.ws.rs.client.Invocation;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.Status;
+
+import org.apache.http.client.HttpClient;
+
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
@@ -36,7 +40,7 @@ public class ApiIntegrator {
         }
 
         try {
-            return new URI(uriString.toString()).normalize().toString().toLowerCase();
+            return new URI(uriString.toString()).normalize().toString();
         } catch (URISyntaxException e) {
             throw new RuntimeException(String.format(IMPROPERLY_FORMED_URI_TEMPLATE, apiUrl.toString()));
         }
@@ -50,6 +54,10 @@ public class ApiIntegrator {
         entityDto.setId(id);
         entityDto.setBody(entity);
         Response createResponse = invocationBuilder.post(Entity.entity(entityDto, MediaType.APPLICATION_JSON_TYPE));
+        if (createResponse.getStatus()!= Status.CREATED.getStatusCode()) {
+            System.out.println( createResponse.readEntity(String.class));
+            return null;
+        }
         return createResponse.getHeaderString(LOCATION);
     }
 
