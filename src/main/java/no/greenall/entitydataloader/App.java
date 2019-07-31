@@ -6,6 +6,7 @@ import no.greenall.entitydataloader.entity.util.Serialization;
 import org.apache.jena.riot.Lang;
 import picocli.CommandLine;
 
+import java.net.UnknownHostException;
 import java.util.Optional;
 
 import static java.util.Objects.nonNull;
@@ -44,9 +45,9 @@ public class App implements Runnable {
     @Override
     public void run() {
         Lang rdfSerialization = (nonNull(serialization)) ?
-                        Optional.ofNullable(Serialization.getByName(serialization)).orElse(null)
-                        :
-                        Optional.ofNullable(Serialization.getByName(findFileExtension())).orElse(null);
+                Optional.ofNullable(Serialization.getByName(serialization)).orElse(null)
+                :
+                Optional.ofNullable(Serialization.getByName(findFileExtension())).orElse(null);
 
         if (nonNull(rdfSerialization)) {
             new EntityDataManager(inputFilePath, rdfSerialization, baseUrl, apiKey);
@@ -60,8 +61,8 @@ public class App implements Runnable {
         String fileExtension = findFileExtension();
 
         return (nonNull(serialization)) ? String.format(
-                        SERIALIZATION_PROVIDED_ERROR_TEMPLATE, serialization, fileExtension)
-                        : String.format(FILE_EXTENSION_UNRECOGNIZED_TEMPLATE, fileExtension);
+                SERIALIZATION_PROVIDED_ERROR_TEMPLATE, serialization, fileExtension)
+                : String.format(FILE_EXTENSION_UNRECOGNIZED_TEMPLATE, fileExtension);
     }
 
     private String findFileExtension() {
