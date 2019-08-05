@@ -8,7 +8,7 @@ public class EntityDataManagerTest {
 
     @Test
     public void testEntityDataManager() throws IOException {
-//        EntityDataManager entityDataManager = new EntityDataManager("humord.ttl", Lang.TURTLE);
+//        EntityDataManager entityDataManager = new EntityDataManager("humord_old.ttl", Lang.TURTLE);
     }
 
 }

@@ -4,7 +4,7 @@ A command line interface for loading data sequentially into the entity data plat
 
 # Usage
 
-java -jar App.jar --api-key <API-KEY>  --url <URL-for-registry-POST-endpoint> --input <input-file> --serialization turtle
+java -jar App.jar --api-key <API-KEY>  --url <URL-for-registry> --input <input-file> --serialization turtle
 
 Note that the CLI supports multiple serializations, but turtle is recommended as this is relatively human readable.
 

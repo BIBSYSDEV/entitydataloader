@@ -6,7 +6,6 @@ import no.greenall.entitydataloader.entity.util.Serialization;
 import org.apache.jena.riot.Lang;
 import picocli.CommandLine;
 
-import java.net.UnknownHostException;
 import java.util.Optional;
 
 import static java.util.Objects.nonNull;
