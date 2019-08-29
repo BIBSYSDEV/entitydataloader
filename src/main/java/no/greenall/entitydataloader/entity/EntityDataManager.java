@@ -5,6 +5,7 @@ import org.apache.commons.codec.Charsets;
 import org.apache.commons.io.IOUtils;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.ResourceFactory;
@@ -57,6 +58,8 @@ public class EntityDataManager {
             mappedIRIs.put(targetResource.getURI(), replacementUri);
         }
 
+        restructure(mappedIRIs);
+        /*
         StmtIterator secondPass = inputModel.listStatements();
 
         while (secondPass.hasNext()) {
@@ -71,6 +74,30 @@ public class EntityDataManager {
 
             outputModel.add(newSubject, statement.getPredicate(), object);
         }
+         */
+    }
+
+    private void restructure(Map<String, String> iriMappings) {
+        iriMappings.forEach((key, value) -> {
+            Model model = apiIntegrator.getEntity(value);
+            StmtIterator stmtIterator = model.listStatements();
+            while (stmtIterator.hasNext()) {
+                Statement tempStmt = stmtIterator.nextStatement();
+                Property sameAs = ResourceFactory.createProperty("http://unit.no/entitydata#sameAs");
+                Property property = tempStmt.getPredicate();
+                RDFNode object = tempStmt.getObject();
+                if (!property.getURI().equals(sameAs.getURI())
+                        && object.isResource()
+                        && iriMappings.containsKey(object.asResource().getURI())) {
+                    object = ResourceFactory.createResource(iriMappings.get(object.asResource().getURI()));
+                    outputModel.add(ResourceFactory.createStatement(tempStmt.getSubject(),
+                            tempStmt.getPredicate(), object));
+                } else {
+                    outputModel.add(tempStmt);
+                }
+            }
+        });
+
     }
 
     private StmtIterator getStatementsOfSubject(Resource targetResource, Model model) {
@@ -105,10 +132,6 @@ public class EntityDataManager {
             apiIntegrator.updateEntity(resourceId, modelToString(tempModel));
             System.out.println(String.format(UPDATED_ENTITY_OUTPUT_TEMPLATE, counter, subjectString));
         }
-        /*
-        https://22wi2isd27.execute-api.eu-west-1.amazonaws.com/registry/Humm/entity/f2c3ae28-594a-426a-89e4-42024f9452ec
-        https://22wi2isd27.execute-api.eu-west-1.amazonaws.com/final/registry/Humm/entity/a7590e6b-810d-4ef7-9aa4-fdd48de48b7d
-         */
     }
 
     private String createEntity(String id, Model model) {

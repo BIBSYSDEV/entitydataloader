@@ -1,0 +1,19 @@
+@prefix unit:  <http://unit.no/entitydata#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.ub.uio.no/humord/c02539>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c02436> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME02539" ;
+        unit:modified         "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Veneto"@nb .
+
+<http://data.ub.uio.no/humord/c02544>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c02539> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME02544" ;
+        unit:modified         "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Venezia"@nb .

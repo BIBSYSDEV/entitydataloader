@@ -1,0 +1,513 @@
+@prefix unit:  <http://unit.no/entitydata#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.ub.uio.no/humord/c02539>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c02436> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME02539" ;
+        unit:modified         "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Veneto"@nb .
+
+<http://data.ub.uio.no/humord/c27724>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c10775> ;
+        unit:editorialNote    "Lukket bemerkning: ubo14"@nb ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME27724" ;
+        unit:modified         "2014-12-30"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Savosavo språk"@nb .
+
+<http://data.ub.uio.no/humord/c05048>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c04972> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME05048" ;
+        unit:modified         "2009-10-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Skrøner"@nb .
+
+<http://data.ub.uio.no/humord/c09032>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c09020> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME09032" ;
+        unit:modified         "2009-10-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Provinser"@nb .
+
+<http://data.ub.uio.no/humord/c02544>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c02539> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME02544" ;
+        unit:modified         "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Venezia"@nb .
+
+<http://data.ub.uio.no/humord/c22908>
+        a                      unit:Concept ;
+        unit:alternativeLabel  "Juks"@nb ;
+        unit:broader           <http://data.ub.uio.no/humord/c01458> ;
+        unit:inScheme          <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier   "HUME22908" ;
+        unit:modified          "2011-06-03"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel    "Fusk"@nb ;
+        unit:related           <http://data.ub.uio.no/humord/c01477> , <http://data.ub.uio.no/humord/c13836> .
+
+<http://data.ub.uio.no/humord/c14215>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c04225> ;
+        unit:definition       "En form for induktiv problemløsning der en bruker regler som er utledet av  erfaring eller sunt folkevett (snarere enn av en underliggende teori eller  modell) <UBO>"@nb ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME14215" ;
+        unit:modified         "1996-05-10"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Heuristikk (Kunstig intelligens)"@nb .
+
+<http://data.ub.uio.no/humord/c12186>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c01795> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME12186" ;
+        unit:modified         "1994-12-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Aztekerriket"@nb .
+
+<http://data.ub.uio.no/humord/c11711>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c10852> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME11711" ;
+        unit:modified         "1994-08-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "1500-tallet f.Kr."@nb .
+
+<http://data.ub.uio.no/humord/c20879>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c06355> ;
+        unit:editorialNote    "Lukket bemerkning: ubtø09"@nb ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME20879" ;
+        unit:modified         "2009-12-10"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Degrammatikalisering"@nb .
+
+<http://data.ub.uio.no/humord/c16170>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c01018> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME16170" ;
+        unit:modified         "2009-10-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Julehefter (Form)"@nb .
+
+<http://data.ub.uio.no/humord/c07337>
+        a                      unit:Concept ;
+        unit:alternativeLabel  "Proselytter"@nb ;
+        unit:broader           <http://data.ub.uio.no/humord/c07330> ;
+        unit:definition        "Person som har gått over til et annet trossamfunn, særlig til katolosismen  <BOB>"@nb ;
+        unit:inScheme          <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier   "HUME07337" ;
+        unit:modified          "2009-10-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel    "Konvertitter"@nb ;
+        unit:related           <http://data.ub.uio.no/humord/c16573> .
+
+<http://data.ub.uio.no/humord/c00849>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c00829> , <http://data.ub.uio.no/humord/c08793> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME00849" ;
+        unit:modified         "2009-10-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Drusere"@nb .
+
+<http://data.ub.uio.no/humord/c04833>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c04827> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME04833" ;
+        unit:modified         "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Plissering"@nb ;
+        unit:related          <http://data.ub.uio.no/humord/c04685> .
+
+<http://data.ub.uio.no/humord/c09292>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c09286> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME09292" ;
+        unit:modified         "2009-10-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Internasjonale organisasjoner"@nb .
+
+<http://data.ub.uio.no/humord/c19008>
+        a                      unit:Concept ;
+        unit:alternativeLabel  "Sinte"@nb , "Manush"@nb , "Manouche"@nb ;
+        unit:broader           <http://data.ub.uio.no/humord/c00747> ;
+        unit:inScheme          <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier   "HUME19008" ;
+        unit:modified          "2003-05-09"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel    "Sinti"@nb .
+
+<http://data.ub.uio.no/humord/c11971>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c07169> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME11971" ;
+        unit:modified         "2009-10-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Svigermødre"@nb .
+
+<http://data.ub.uio.no/humord/c23025>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c14620> ;
+        unit:editorialNote    "Lukket bemerkning: ubo11"@nb ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME23025" ;
+        unit:modified         "2011-06-06"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Grunnrente"@nb .
+
+<http://data.ub.uio.no/humord/c26146>
+        a                      unit:Concept ;
+        unit:alternativeLabel  "Taifuner"@nb ;
+        unit:broader           <http://data.ub.uio.no/humord/c26145> ;
+        unit:definition        "Navn på tropisk lavtrykk i østasiatiske farvann <SNL>"@nb ;
+        unit:editorialNote     "Lukket bemerkning: ubo12"@nb ;
+        unit:inScheme          <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier   "HUME26146" ;
+        unit:modified          "2012-09-17"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel    "Tyfoner"@nb .
+
+<http://data.ub.uio.no/humord/c07597>
+        a                      unit:Concept ;
+        unit:alternativeLabel  "Kjøpsteder"@nb ;
+        unit:broader           <http://data.ub.uio.no/humord/c07593> ;
+        unit:definition        "(Årlig) kjøpstevne <UBO>"@nb ;
+        unit:inScheme          <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier   "HUME07597" ;
+        unit:modified          "2009-10-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel    "Marknader"@nb .
+
+<http://data.ub.uio.no/humord/c19268>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c01081> ;
+        unit:editorialNote    "ubo03"@nb ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME19268" ;
+        unit:modified         "2007-07-10"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Gondi folkediktning (Form)"@nb .
+
+<http://data.ub.uio.no/humord/c16764>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c06952> ;
+        unit:definition       "Nederlandskspråklig litteratur mellom ca.1100 og 1500 <UBO>"@nb ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME16764" ;
+        unit:modified         "1998-10-07"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Middelnederlandsk litteratur"@nb .
+
+<http://data.ub.uio.no/humord/c09886>
+        a                      unit:Concept ;
+        unit:alternativeLabel  "Swazi språk"@nb , "Siswati språk"@nb ;
+        unit:broader           <http://data.ub.uio.no/humord/c09840> ;
+        unit:inScheme          <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier   "HUME09886" ;
+        unit:modified          "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel    "Swati språk"@nb .
+
+<http://data.ub.uio.no/humord/c10133>
+        a                      unit:Concept ;
+        unit:alternativeLabel  "Yunka språk"@nb , "Yunca språk"@nb , "Mochica språk"@nb ;
+        unit:broader           <http://data.ub.uio.no/humord/c10113> ;
+        unit:inScheme          <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier   "HUME10133" ;
+        unit:modified          "1994-09-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel    "Yunga språk"@nb .
+
+<http://data.ub.uio.no/humord/c25931>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c07216> ;
+        unit:editorialNote    "Lukket bemerkning: ubo12"@nb ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME25931" ;
+        unit:modified         "2012-04-02"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Utvekslingselever"@nb ;
+        unit:related          <http://data.ub.uio.no/humord/c25940> .
+
+<http://data.ub.uio.no/humord/c03255>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c03250> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME03255" ;
+        unit:modified         "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Prestatyn"@nb .
+
+<http://data.ub.uio.no/humord/c00751>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c00739> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME00751" ;
+        unit:modified         "2009-10-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Folkegrupper i Afrika"@nb .
+
+<http://data.ub.uio.no/humord/c23619>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c07169> ;
+        unit:editorialNote    "Lukket bemerkning: ubo11"@nb ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME23619" ;
+        unit:modified         "2011-06-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Terrorister (Personer)"@nb ;
+        unit:related          <http://data.ub.uio.no/humord/c09678> , <http://data.ub.uio.no/humord/c20058> .
+
+<http://data.ub.uio.no/humord/c12422>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c10123> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME12422" ;
+        unit:modified         "1995-02-13"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Comanche språk"@nb .
+
+<http://data.ub.uio.no/humord/c08048>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c07972> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME08048" ;
+        unit:modified         "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Evolusjonspsykologi"@nb .
+
+<http://data.ub.uio.no/humord/c10393>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c10369> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME10393" ;
+        unit:modified         "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Marathi språk"@nb .
+
+<http://data.ub.uio.no/humord/c05544>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c05542> , <http://data.ub.uio.no/humord/c07881> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME05544" ;
+        unit:modified         "1995-11-06"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Dramapedagogikk"@nb ;
+        unit:related          <http://data.ub.uio.no/humord/c05583> .
+
+<http://data.ub.uio.no/humord/c17215>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c01695> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME17215" ;
+        unit:modified         "1999-06-25"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Nordstatene"@nb .
+
+<http://data.ub.uio.no/humord/c14711>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c02628> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME14711" ;
+        unit:modified         "1996-10-25"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Fjære"@nb .
+
+<http://data.ub.uio.no/humord/c10727>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c10719> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME10727" ;
+        unit:modified         "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Avarisk språk"@nb .
+
+<http://data.ub.uio.no/humord/c15186>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c05199> , <http://data.ub.uio.no/humord/c08430> ;
+        unit:definition       "Opprinnelig hellig kilde og nymfegrotte. I keisertiden betegnelse på monumentalbrønn <UBO>"@nb ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME15186" ;
+        unit:modified         "2009-10-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Nymfeer"@nb ;
+        unit:related          <http://data.ub.uio.no/humord/c13529> , <http://data.ub.uio.no/humord/c12399> .
+
+<http://data.ub.uio.no/humord/c19170>
+        a                      unit:Concept ;
+        unit:alternativeLabel  "Karamania"@nb ;
+        unit:broader           <http://data.ub.uio.no/humord/c03425> ;
+        unit:inScheme          <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier   "HUME19170" ;
+        unit:modified          "2003-10-20"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel    "Karaman"@nb .
+
+<http://data.ub.uio.no/humord/c03849>
+        a                      unit:Concept ;
+        unit:alternativeLabel  "Sultekunst"@nb ;
+        unit:broader           <http://data.ub.uio.no/humord/c03843> ;
+        unit:inScheme          <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier   "HUME03849" ;
+        unit:modified          "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel    "Slanking"@nb ;
+        unit:related           <http://data.ub.uio.no/humord/c03939> .
+
+<http://data.ub.uio.no/humord/c01202>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c01081> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME01202" ;
+        unit:modified         "2007-07-17"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Tsjekkisk folkediktning (Form)"@nb .
+
+<http://data.ub.uio.no/humord/c14971>
+        a                      unit:Concept ;
+        unit:alternativeLabel  "Cubanere"@nb ;
+        unit:broader           <http://data.ub.uio.no/humord/c00788> ;
+        unit:inScheme          <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier   "HUME14971" ;
+        unit:modified          "2009-10-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel    "Kubanere"@nb ;
+        unit:related           <http://data.ub.uio.no/humord/c19229> .
+
+<http://data.ub.uio.no/humord/c17475>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c05517> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME17475" ;
+        unit:modified         "2009-12-11"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Kirketonearter"@nb .
+
+<http://data.ub.uio.no/humord/c10987>
+        a                      unit:Concept ;
+        unit:alternativeLabel  "Femtenhundretallet"@nb , "Sekstende århundre"@nb ;
+        unit:broader           <http://data.ub.uio.no/humord/c10852> ;
+        unit:inScheme          <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier   "HUME10987" ;
+        unit:modified          "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel    "1500-tallet"@nb .
+
+<http://data.ub.uio.no/humord/c23521>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c07745> ;
+        unit:editorialNote    "Lukket bemerkning: ubo11"@nb ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME23521" ;
+        unit:modified         "2011-06-20"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Internasjonal handel"@nb ;
+        unit:related          <http://data.ub.uio.no/humord/c23163> .
+
+<http://data.ub.uio.no/humord/c21492>
+        a                      unit:Concept ;
+        unit:alternativeLabel  "Systemhierarkier"@nb ;
+        unit:broader           <http://data.ub.uio.no/humord/c01458> ;
+        unit:editorialNote     "Lukket bemerkning: ubo11"@nb ;
+        unit:inScheme          <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier   "HUME21492" ;
+        unit:modified          "2011-04-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel    "Hierarkier (Systemer)"@nb .
+
+<http://data.ub.uio.no/humord/c17809>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c05199> ;
+        unit:definition       "Byggverk i elv eller kanal som gjør det mulig å heve eller senke fartøy fra   ett vannivå til et annet <BOB>"@nb ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME17809" ;
+        unit:modified         "2009-10-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Sluser"@nb .
+
+<http://data.ub.uio.no/humord/c19764>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c17804> ;
+        unit:editorialNote    "ubo05"@nb ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME19764" ;
+        unit:modified         "2014-10-20"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Suleika"@nb .
+
+<http://data.ub.uio.no/humord/c01462>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c01459> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME01462" ;
+        unit:modified         "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Tidsanalyse"@nb .
+
+<http://data.ub.uio.no/humord/c21826>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c07510> ;
+        unit:definition       "Lærer med cand.mag.-eksamen el. tilsvarende eksamen og pedagogisk utdanning<BOB>"@nb ;
+        unit:editorialNote    "Lukket bemerkning: ubo11"@nb ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME21826" ;
+        unit:modified         "2011-05-10"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Adjunkter"@nb .
+
+<http://data.ub.uio.no/humord/c13133>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c07169> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME13133" ;
+        unit:modified         "2009-10-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Herskere"@nb .
+
+<http://data.ub.uio.no/humord/c06255>
+        a                      unit:Concept ;
+        unit:alternativeLabel  "Geografiske navn"@nb , "Stadnamn"@nb ;
+        unit:broader           <http://data.ub.uio.no/humord/c06249> ;
+        unit:inScheme          <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier   "HUME06255" ;
+        unit:modified          "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel    "Stedsnavn"@nb .
+
+<http://data.ub.uio.no/humord/c13727>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c02614> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME13727" ;
+        unit:modified         "1996-01-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Skedsmo"@nb .
+
+<http://data.ub.uio.no/humord/c18186>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c13418> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME18186" ;
+        unit:modified         "2001-06-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Doping"@nb .
+
+<http://data.ub.uio.no/humord/c15682>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c08791> ;
+        unit:definition       "Hindu bevegelse i India <UBO>"@nb ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME15682" ;
+        unit:modified         "1997-10-06"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Natha"@nb .
+
+<http://data.ub.uio.no/humord/c20248>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c05316> ;
+        unit:editorialNote    "ubb06"@nb ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME20248" ;
+        unit:modified         "2009-10-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Titler (Bildekunst)"@nb .
+
+<http://data.ub.uio.no/humord/c27353>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c00829> ;
+        unit:definition       "Folk i Guangxi og Yunnan i Sør-Kina <UBO>"@nb ;
+        unit:editorialNote    "Lukket bemerkning: ubo14"@nb ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME27353" ;
+        unit:modified         "2014-04-15"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Zhuang (Folk)"@nb .
+
+<http://data.ub.uio.no/humord/c00218>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c00153> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME00218" ;
+        unit:modified         "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Periodika"@nb .
+
+<http://data.ub.uio.no/humord/c04202>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c04198> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME04202" ;
+        unit:modified         "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Macintosh"@nb .
+
+<http://data.ub.uio.no/humord/c13987>
+        a                     unit:Concept ;
+        unit:broader          <http://data.ub.uio.no/humord/c10454> ;
+        unit:inScheme         <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier  "HUME13987" ;
+        unit:modified         "1996-03-12"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel   "Bukhara-dialekt"@nb .

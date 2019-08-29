@@ -1,0 +1,10 @@
+@prefix unit:  <http://unit.no/entitydata#> .
+
+<http://data.ub.uio.no/humord/c09886>
+        a                      unit:Concept ;
+        unit:alternativeLabel  "Swazi språk"@nb, "Siswati språk"@nb ;
+        unit:broader           <http://data.ub.uio.no/humord/c09840> ;
+        unit:inScheme          <http://data.ub.uio.no/humord> ;
+        unit:localIdentifier   "HUME09886" ;
+        unit:modified          "1994-03-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        unit:preferredLabel    "Swati språk"@nb .
